@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TicketList /> renders 1`] = `
+<div
+  className="ticket-list"
+>
+  <h1
+    key="title"
+  >
+    Tickets for 
+    test title
+  </h1>
+  <div
+    key="list"
+  >
+    <div
+      key="listing-0"
+    >
+      <Connect(TicketCardComponent)
+        product={
+          Object {
+            "id": "1",
+            "price": 10,
+            "quantity": 2,
+            "title": "prod 1",
+          }
+        }
+      />
+    </div>
+    <div
+      key="listing-1"
+    >
+      <Connect(TicketCardComponent)
+        product={
+          Object {
+            "id": "2",
+            "price": 12.4,
+            "quantity": 1,
+            "title": "prod 2",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

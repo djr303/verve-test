@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BasketCard /> renders 1`] = `
+<div
+  onClick={[Function]}
+>
+  <h3 />
+  <p>
+    Cost: £
+    NaN
+  </p>
+  <p>
+    Quantity: 
+  </p>
+  <button>
+    Remove from Basket
+  </button>
+</div>
+`;

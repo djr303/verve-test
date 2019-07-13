@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TicketCard /> renders 1`] = `
+<div
+  className="card"
+  onClick={[Function]}
+>
+  <h3>
+    prod 1
+  </h3>
+  <p>
+    £
+    10
+  </p>
+  <button>
+    Add to Basket
+  </button>
+</div>
+`;

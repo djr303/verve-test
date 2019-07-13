@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Routes /> renders 1`] = `
+<BrowserRouter>
+  <Nav>
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/review"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/task"
+      />
+    </Switch>
+  </Nav>
+</BrowserRouter>
+`;

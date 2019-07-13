@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Basket /> renders 1`] = `
+<div>
+  <h1>
+    Your Basket
+  </h1>
+  <p>
+    You're currently looking at purchasing these tickets:
+  </p>
+  <div>
+    <Connect(BasketCardComponent)
+      item={
+        Object {
+          "id": "2",
+          "quantity": 1,
+        }
+      }
+      key="basket-item-0"
+    />
+  </div>
+</div>
+`;

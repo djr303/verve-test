@@ -1,0 +1,22 @@
+.nav-bar {
+  background: #ebe1b7;
+  font-family: monospace;
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      background: #da9a5b;
+    }
+  }
+}

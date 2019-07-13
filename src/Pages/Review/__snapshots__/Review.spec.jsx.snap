@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Review /> renders with props 1`] = `
+<div
+  className="flex-layout"
+>
+  <TicketList
+    key="listings"
+    products={
+      Array [
+        Object {
+          "id": "001",
+          "price": 40,
+          "title": "xxx",
+        },
+      ]
+    }
+    title="test campaign"
+  />
+  <div
+    className="basket"
+  >
+    <Connect(BasketComponent) />
+    <Connect(TotalComponent) />
+  </div>
+</div>
+`;

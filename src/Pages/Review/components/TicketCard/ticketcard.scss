@@ -1,0 +1,11 @@
+.card {
+  padding: 10px;
+
+  &:after {
+    border-bottom: 3px solid #f4c4a9;
+  }
+}
+
+.card.active {
+  background: #f4c4a9;
+}
